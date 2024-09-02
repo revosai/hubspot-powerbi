@@ -16,17 +16,13 @@ jobs:
     - name: Zip the Report folder
       run: zip -r Report.pbit Report
 
-    - name: Get the latest tag
-      id: get_latest_tag
-      run: echo ::set-output name=tag::$(git describe --tags --abbrev=0)
-
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ steps.get_latest_tag.outputs.tag }}-prerelease
+        tag_name: latest-prerelease
         release_name: "Pre-release ${{ steps.get_latest_tag.outputs.tag }} from master"
         draft: false
         prerelease: true
