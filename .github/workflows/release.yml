@@ -13,13 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14'
-
     - name: Zip the Report folder
-      run: zip -r Report.pbit Report
+      run: zip -r "RevOS_HubSpot_Template.pbip" Template
 
     - name: Create Release
       id: create_release
@@ -34,8 +29,10 @@ jobs:
 
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./Template.pbit
-        asset_name: Template.pbit
+        asset_path: ./RevOS_HubSpot_Template.pbip
+        asset_name: RevOS_HubSpot_Template.pbip
         asset_content_type: application/microsoft-powerbi
