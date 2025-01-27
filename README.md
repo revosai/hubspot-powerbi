@@ -88,7 +88,7 @@ The template includes multiple useful visuals. All visuals are interconnected, a
 - **Companies Table**: Provide details on the number of deals per company, along with their won/lost percentages.
 - **Deals Table**: List individual deals with contact information and current statuses.
 
-![image.png](RevOS%20Power%20BI%20Template%201834ef58d865802da2e2d52feb6fc1d9/image%201.png)
+![Image](https://github.com/user-attachments/assets/bcbef07c-2dbc-4726-875d-37eff398f45a)
 
 ### Practical Use Cases
 
