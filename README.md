@@ -34,7 +34,7 @@ Before using the template, ensure the following:
 2. **Placeholder:** Where to get the template - [Insert link or instructions for obtaining the template]
 3. A service account email, service account JSON key and Dataset Name are available. You can find all this information on RevOS site under Integrations.
 
-![image.png](RevOS%20Power%20BI%20Template%201834ef58d865802da2e2d52feb6fc1d9/image.png)
+![Image](https://github.com/user-attachments/assets/e23cc59c-d654-4b3a-9967-411ba0e45be2)
 
 You have access to HubSpot data, including the required tables (deals, contacts, companies, and deal_pipelines).
 
