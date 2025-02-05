@@ -5,10 +5,10 @@ The ultimate PowerBI report template for your sales data from HubSpot
 
 ### 1. How to use
 
- 1. Download latest version of the template from 
- 1. Connect your HubSpot to RevOS (it's free)
- 1. Initiate connectivity to the PowerBI / Microsoft Fabric via [PowerBI connector](https://help.revos.ai/integrations/hHrHN7xqBo2gahRKcwcxPf/power-bi--microsoft-fabric/jGVm4iK3ZRR3sSUrG9ua2G)
- 1. Open the template with PowerBI Desktop
+ 1. Download latest version of the template from [releases](https://github.com/revosai/hubspot-powerbi/releases)
+ 1. Install [RevOS app](https://ecosystem.hubspot.com/marketplace/apps/customer-service/customer-success/revos) into your HubSpot (it's free)
+ 1. Enable connectivity for the PowerBI / Microsoft Fabric via [PowerBI access](https://help.revos.ai/integrations/hHrHN7xqBo2gahRKcwcxPf/power-bi--microsoft-fabric/jGVm4iK3ZRR3sSUrG9ua2G)
+ 1. Open the template with PowerBI Desktop and connect it to data
 
 ---
 
